@@ -1,0 +1,64 @@
+.landingPage {
+  min-height: 80vh;
+}
+
+.header {
+  min-height: 20vh;
+  text-align: center;
+}
+
+.header hr {
+  width: 30%;
+  margin: 0 auto;
+  border: none;
+  height: 2px;
+  background-color: #0850cc;
+}
+
+.tripleCar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.carClassBox {
+  width: 60vh;
+  height: 60vh;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.tripleCar .classic {
+  background: url("https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+}
+
+.tripleCar .super {
+  background: url("https://images.unsplash.com/photo-1542754671-500b046ff90d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  background-position: center;
+  background-size: cover;
+}
+
+.tripleCar .sport {
+  background: url("https://images.pexels.com/photos/4147623/pexels-photo-4147623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
+}
+
+.carClassBox h2 {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 3em;
+  font-weight: 300;
+  color: white;
+}
+
+.carClassBox:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
