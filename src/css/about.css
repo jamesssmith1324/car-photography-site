@@ -1,10 +1,18 @@
 .about {
   display: flex;
-  margin: 10vh 0;
 }
 
 .aboutText {
   flex: 1;
+  margin-right: 20px;
+}
+
+.aboutText hr {
+  width: 30vh;
+  border: none;
+  background-color: #0850cc;
+  height: 2px;
+  margin-bottom: 20px;
 }
 
 .aboutImgs {

@@ -35,19 +35,26 @@ class Portfolio extends React.Component {
   }
 
   render() {
-    const imagesToShow = this.state.showMore ? 10 : 80;
-    // const imagegard = this.state.showMore ? {styles={display:block}} : {styles = {display:none}}
+    const imagesToShow = this.state.showMore ? 11 : 80;
+    const toShow = this.state.showMore ? "Show More" : "Show Less";
     this.items = this.state.Cars.slice(0, imagesToShow).map((item) => (
       <img key={item.id} src={item.src.large} alt="" />
     ));
     return (
       <div id="portfolio">
         <h1>Portfolio</h1>
-        <button onClick={this.ShowMoreImages}>Show More</button>
+        <hr />
+        <button className="portBtn underline" onClick={this.ShowMoreImages}>
+          {toShow}
+        </button>
         <div className="portfolio dontShow" styles>
           {this.items}
         </div>
-        <div className="imageHidder"></div>
+        <div
+          className="imageHidder"
+          style={
+            this.state.showMore ? { display: "block" } : { display: "none" }
+          }></div>
       </div>
     );
   }

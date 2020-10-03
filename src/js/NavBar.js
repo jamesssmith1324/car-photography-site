@@ -11,8 +11,8 @@ function NavBar() {
         <NavBarElement text="Home" href="" class="underline" />
         <NavBarElement text="About" href="#about" class="underline" />
         <NavBarElement text="Portfolio" href="#portfolio" class="underline" />
-        <NavBarElement text="Socials" href="" class="underline" />
-        <NavBarElement text="Contact" href="" class="underline" />
+        <NavBarElement text="Socials" href="#socials" class="underline" />
+        <NavBarElement text="Contact" href="#contact" class="underline" />
       </ul>
     </div>
   );

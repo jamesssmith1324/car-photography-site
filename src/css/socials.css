@@ -1,0 +1,45 @@
+.socials {
+  min-height: 30vh;
+  /* border: 1px solid red; */
+}
+
+.socials hr {
+  width: 30vh;
+  border: none;
+  background-color: #0850cc;
+  height: 2px;
+  margin-bottom: 20px;
+}
+
+.socialIcons ul li i {
+  font-size: 4em;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.socialIcons ul li i:hover {
+  transform: scale(1.1);
+}
+.socialIcons {
+  display: flex;
+}
+
+.socialIcons ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  flex: 1;
+}
+
+.socialIcons p {
+  flex: 2;
+}
+
+.socialIcons ul li:nth-child(1) {
+  color: #4267b2;
+}
+.socialIcons ul li:nth-child(2) {
+  color: #e1306c;
+}
+.socialIcons ul li:nth-child(3) {
+  color: #1da1f2;
+}

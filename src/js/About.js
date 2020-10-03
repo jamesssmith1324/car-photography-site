@@ -6,14 +6,17 @@ function About() {
     <div className="about" id="about">
       <div className="aboutText">
         <h1>About</h1>
+        <hr />
         <p>
-          d scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently wntially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently w
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nibh
+          felis, fringilla a lorem sit amet, ultrices sollicitudin ligula.
+          Nullam pulvinar nulla ut vehicula porta. Duis volutpat tincidunt elit
+          eu congue. Phasellus luctus dictum augue, hendrerit pharetra nunc
+          sodales in. Vestibulum fermentum consequat purus, id vulputate nisl
+          consectetur nec. Vestibulum ante ipsum primis in faucibus orci luctus
+          et ultrices posuere cubilia curae; In hac habitasse platea dictumst.
+          Nullam ut nunc tortor. Donec volutpat ante nec tellus feugiat, sed
+          ultrices lectus suscipit.
         </p>
       </div>
       <div className="aboutImgs">

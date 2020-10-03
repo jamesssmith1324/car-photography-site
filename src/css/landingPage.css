@@ -1,5 +1,5 @@
 .landingPage {
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .header {
@@ -25,7 +25,7 @@
 .carClassBox {
   width: 60vh;
   height: 60vh;
-  cursor: pointer;
+  /* cursor: pointer; */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   transition: 0.3s;
 }
@@ -37,7 +37,7 @@
 }
 
 .tripleCar .super {
-  background: url("https://images.unsplash.com/photo-1542754671-500b046ff90d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  background: url("https://images.pexels.com/photos/3221163/pexels-photo-3221163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-position: center;
   background-size: cover;
 }
